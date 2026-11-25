@@ -1,0 +1,199 @@
+CAPÍTULO 3 – Algoritmos e transformação digital
+Páginas 42 a 67 do livro
+1. Resumo do capítulo
+Este capítulo explica como os algoritmos estão presentes em praticamente todas as tecnologias que utilizamos, desde aplicativos de celular até sistemas de pesquisa, redes sociais e inteligência artificial.
+
+Algoritmo é uma sequência finita e organizada de instruções para resolver um problema ou realizar uma tarefa. Uma receita culinária, por exemplo, é um algoritmo, pois apresenta etapas que devem ser seguidas.
+
+O livro apresenta três formas principais de representar algoritmos:
+- Linguagem natural: instruções escritas em palavras comuns.
+- Fluxograma: representação gráfica das etapas, utilizando símbolos e setas.
+- Pseudocódigo: representação organizada por comandos semelhantes aos de uma linguagem de programação.
+Um sistema computacional possui três etapas básicas: entrada de dados, processamento e saída de dados. Alguns sistemas também utilizam o feedback, que permite reaproveitar os resultados para melhorar seu funcionamento.
+
+O capítulo também apresenta os algoritmos de busca e ordenação. A busca linear verifica os elementos um por um; a busca binária divide uma lista ordenada pela metade para encontrar um elemento mais rapidamente. Já os algoritmos de ordenação organizam informações de acordo com critérios, como ordem crescente ou decrescente.
+
+Outro tema é a evolução da internet e dos dispositivos digitais. O texto explica a diferença entre internet e World Wide Web (WWW), os tipos de redes de computadores e os protocolos TCP/IP, que permitem a comunicação entre dispositivos.
+
+Também são abordadas a integração das tecnologias digitais a outras áreas, como agricultura e indústria, e a Internet das Coisas (IoT), que conecta objetos cotidianos à internet.
+
+Por fim, o capítulo discute os impactos ambientais e sociais da tecnologia, como o lixo eletrônico, o consumo de energia dos centros de dados, a ansiedade causada pela conexão constante e as transformações no mercado de trabalho.
+
+As tecnologias imersivas também são apresentadas:
+- Realidade virtual: coloca o usuário em um ambiente digital.
+- Realidade aumentada: acrescenta elementos virtuais ao mundo real.
+- Realidade mista: integra elementos virtuais ao ambiente real, permitindo maior interação.
+- Metaverso: espaço virtual compartilhado em que pessoas interagem por meio de representações digitais, como avatares.
+2. Questões respondidas
+Em destaque – O mundo mediado por algoritmos
+Questão 1 – Por que um algoritmo precisa ser transparente?
+
+Resposta: Para que as pessoas possam compreender como ele funciona, quais critérios utiliza e como chega aos resultados, permitindo identificar possíveis erros e injustiças.
+
+Questão 2 – Que tipo de impactos esses algoritmos avançados podem causar?
+
+Resposta: Podem facilitar pesquisas, recomendações e decisões, mas também podem manipular a atenção dos usuários, criar bolhas de opinião, espalhar notícias falsas e comprometer a privacidade.
+
+Questão 3 – Qual é a relação da fala do personagem no último quadrinho da tirinha com a manipulação da atenção dos usuários mencionada no texto?
+
+Resposta: A tirinha mostra como a tecnologia pode influenciar o comportamento das pessoas e prender sua atenção, fazendo com que passem mais tempo conectadas.
+Aplicando conhecimentos – Problemas P e NP
+Questão 1 – Em Computação, o que são problemas polinomiais e problemas não polinomiais?
+
+Resposta: Problemas polinomiais são aqueles que podem ser resolvidos por algoritmos cujo tempo de execução cresce de maneira polinomial em relação ao tamanho dos dados. Problemas não polinomiais apresentam um crescimento mais rápido, podendo exigir muito tempo de processamento.
+
+Questão 2 – Quais seriam as consequências se P = NP?
+
+Resposta: Muitos problemas difíceis poderiam ser resolvidos com muito mais rapidez. Isso ajudaria áreas como indústria, ciência e comunicações, mas também poderia comprometer sistemas de segurança e criptografia.
+
+Questão 3 – O problema do caixeiro-viajante é do tipo P ou NP?
+
+Resposta: É um problema de otimização da classe NP. Seu objetivo é encontrar o menor caminho para visitar várias cidades uma única vez e retornar à cidade de origem.
+
+b. Quais estratégias podem ser usadas para resolvê-lo?
+
+Resposta: Podem ser utilizados algoritmos de busca, programação dinâmica, heurísticas e métodos de otimização para encontrar uma rota curta.
+
+c. Quais são as aplicações desse problema?
+
+Resposta: É utilizado no planejamento de rotas de entregas, transporte de mercadorias, logística e organização de trajetos.
+
+Questão 4 – O que são os problemas indecidíveis?
+
+Resposta: São problemas para os quais não existe um algoritmo capaz de fornecer uma resposta correta para todos os casos possíveis.
+
+Questão 5 – Escolha um problema indecidível e explique-o.
+
+Resposta – Problema da parada:
+
+O problema da parada consiste em descobrir se um programa de computador vai terminar sua execução ou continuar funcionando infinitamente. Não existe um algoritmo geral capaz de responder corretamente a essa questão para todos os programas e entradas possíveis. Isso demonstra que existem limites para o que os computadores conseguem resolver.
+Ciência e Tecnologia – Ordenação de artistas
+A lista inicial é:
+Artista	Tempo de escuta
+A	860 min
+B	740 min
+C	952 min
+D	785 min
+E	1.260 min
+
+Questão 3a – Ordene os artistas utilizando o primeiro algoritmo. Quantas comparações e trocas foram feitas?
+
+Resposta: A ordem decrescente é:
+1. E – 1.260 minutos
+2. C – 952 minutos
+3. A – 860 minutos
+4. D – 785 minutos
+5. B – 740 minutos
+Considerando quatro passagens completas pelo método de comparação entre elementos vizinhos, foram feitas 16 comparações e 5 trocas.
+
+Questão 3b – Ordene os artistas utilizando o segundo algoritmo. Quantas comparações e trocas foram feitas?
+
+Resposta: A ordem é E, C, A, D e B.
+
+Foram feitas 10 comparações e 3 trocas, considerando a troca apenas quando o maior elemento ainda não está na posição correta.
+
+Questão 3c – Ordene os artistas utilizando o quicksort. Quantas comparações e reposicionamentos de pivô foram feitos?
+
+Resposta: A ordem final também é E, C, A, D e B.
+
+O quicksort escolhe um elemento como pivô, separa os maiores e menores e repete o processo nas partes da lista. A quantidade exata de comparações e reposicionamentos depende da implementação da divisão e da escolha dos pivôs; o livro não especifica um procedimento único para essa contagem.
+
+Questão 3d – Compare os algoritmos. Qual você utilizaria em uma plataforma de streaming de música? Justifique.
+
+Resposta: Eu utilizaria o quicksort, pois costuma ser eficiente para ordenar grandes quantidades de dados, como listas de artistas mais escutados em uma plataforma de streaming.
+Atividade prática – Robô meteorológico
+Conclusão 1 – Quais foram as dificuldades encontradas durante a construção do robô meteorológico?
+
+Resposta: As dificuldades podem envolver conectar corretamente o sensor ao microcontrolador, instalar as bibliotecas necessárias e programar o sistema para coletar os dados de temperatura e umidade.
+
+Conclusão 2 – Montem um gráfico de linhas com os valores obtidos a cada medida.
+
+Resposta: O gráfico deve apresentar o tempo no eixo horizontal e os valores medidos no eixo vertical. Podem ser feitas duas linhas: uma para a temperatura, em graus Celsius, e outra para a umidade, em porcentagem. Os valores devem ser preenchidos com as medições realizadas pelo grupo.
+
+Conclusão 3 – Produzam um vídeo sobre o robô meteorológico.
+
+Resposta: O vídeo deve explicar que o robô utiliza um sensor conectado a um microcontrolador para medir automaticamente a temperatura e a umidade do ar. Também deve mostrar os dados registrados e explicar como eles são apresentados no computador.
+Em destaque – Sempre conectado
+Questão 1 – Você considera que já sentiu FoMO no contexto de uso das tecnologias? Se sim, em qual situação?
+
+Resposta: Sim. Isso pode acontecer quando sinto medo de perder alguma novidade ou acontecimento nas redes sociais e fico verificando o celular constantemente.
+
+Questão 2 – Você concorda com a visão do autor de que estamos adequando o mundo real para que caiba nas possibilidades das tecnologias? Por quê?
+
+Resposta: Sim. Muitas pessoas modificam seus hábitos para acompanhar as tecnologias, como preferir conversas virtuais e adaptar suas atividades ao funcionamento dos aplicativos.
+
+Questão 3 – Como você interpreta a ideia do especialista de que nossa mente virou um tipo de funcionária do digital?
+
+Resposta: Significa que muitas pessoas passaram a depender das tecnologias e dos algoritmos para organizar suas atividades, buscar informações e tomar decisões, diminuindo sua autonomia em algumas situações.
+
+Questão 4 – O que significa o fato de o número de perfis de usuários de redes sociais ser menor do que a quantidade de indivíduos que usam a internet? Você considera que seria possível ser maior? Justifique.
+
+Resposta: Significa que nem todas as pessoas que utilizam a internet possuem perfis em redes sociais. O número de perfis também pode ser maior que o número de indivíduos, pois uma mesma pessoa pode ter várias contas em diferentes plataformas.
+
+Questão 5 – Planejem uma pesquisa por formulários digitais sobre dispositivos, serviços conectados e FoMO.
+
+Resposta: A pesquisa pode perguntar quais dispositivos os estudantes utilizam, quais serviços conectados acessam, quanto tempo passam na internet e se sentem medo de perder novidades nas redes sociais. Depois, os dados devem ser organizados em gráficos e apresentados à turma.
+Trabalho e juventudes – Digitalização no mundo do trabalho
+Questão 1 – Quais habilidades digitais você pensa que precisará desenvolver para o mercado? Justifique sua resposta.
+
+Resposta: Preciso desenvolver conhecimentos de informática, comunicação digital, pesquisa na internet, segurança de dados e utilização de ferramentas tecnológicas, pois essas habilidades são importantes em muitas profissões.
+
+Questão 2 – Como você avalia que estará a quantidade de mulheres trabalhando na tecnologia até 2030 e quais ações podem promover a entrada delas nessa área?
+
+Resposta: A expectativa é que a participação feminina aumente. Para isso, é importante oferecer cursos, bolsas de estudo, oportunidades de emprego, incentivo à formação tecnológica e combate à discriminação.
+
+Questão 3 – Você considera que as tecnologias digitais podem solucionar qualquer tipo de problema? Por quê?
+
+Resposta: Não. As tecnologias ajudam a resolver muitos problemas, mas existem situações que dependem da criatividade, da experiência, da empatia e das decisões humanas.
+Aplicando conhecimentos – Evolução da tecnologia
+Questão 4 – Sobre a evolução da tecnologia digital, identifique a afirmação incorreta.
+Alternativa D
+A alternativa está incorreta porque não é possível afirmar que a evolução tecnológica atingirá um pico nos próximos anos e depois começará a desacelerar. As tecnologias continuam em transformação.
+
+Questão 5 – O que é arquitetura TCP/IP e para que ela serve?
+
+Resposta: É um conjunto de protocolos de comunicação que permite a troca de informações entre computadores e outros dispositivos conectados em redes, especialmente na internet.
+
+Questão 6 – Qual é a função do protocolo IP?
+
+Resposta: O protocolo IP identifica os dispositivos por meio de endereços e permite encaminhar os dados de uma origem até o destino correto na rede.
+
+Questão 7 – Identifique as mudanças trazidas pelas tecnologias digitais ao mercado de trabalho.
+
+Resposta: As tecnologias digitais automatizaram tarefas, transformaram profissões, criaram novas oportunidades de trabalho e aumentaram a necessidade de conhecimentos tecnológicos. Algumas ocupações podem desaparecer, enquanto outras surgem.
+
+Questão 8a – O que a tirinha está retratando?
+
+Resposta: A tirinha retrata as dificuldades causadas pela falta de conhecimentos digitais para utilizar tecnologias e resolver problemas do cotidiano.
+
+Questão 8b – Escreva um texto dissertativo-argumentativo sobre como a falta de competências digitais limita o uso e a solução de problemas cotidianos.
+
+Resposta: A falta de competências digitais dificulta a realização de atividades simples, como acessar serviços, fazer pesquisas e utilizar aplicativos. Em uma sociedade cada vez mais conectada, saber utilizar as tecnologias é fundamental para estudar, trabalhar e se comunicar. Por isso, é importante investir na educação digital e oferecer oportunidades de aprendizagem para todos.
+Ciência e Tecnologia – Tecnologias imersivas
+Questão 1 – De que maneira as realidades virtuais podem ser importantes para a prática escolar?
+
+Resposta: Elas permitem que os estudantes tenham experiências interativas, conheçam lugares distantes, simulem situações reais e aprendam conteúdos de maneira mais interessante e prática.
+
+Questão 2 – Como a arte pode representar o mundo no qual está inserida, trazendo reflexões sobre questões contemporâneas?
+
+Resposta: A arte representa acontecimentos, mudanças e problemas da sociedade. Por meio de filmes, livros, músicas e jogos, pode mostrar como as tecnologias influenciam a vida das pessoas e provocar reflexões sobre o futuro.
+
+Questão 3 – Apresente possíveis efeitos nocivos do desenvolvimento de realidades virtuais e como poderiam ser neutralizados.
+
+Resposta: O uso excessivo pode causar isolamento social, dependência tecnológica, sedentarismo e dificuldade de distinguir o mundo real do virtual. Esses problemas podem ser reduzidos com limites de tempo, orientação sobre o uso consciente e manutenção das atividades e relações presenciais.
+Aplicando conhecimentos – Tecnologias imersivas
+Questão 9 – O que são tecnologias imersivas?
+
+Resposta: São tecnologias que proporcionam experiências digitais nas quais o usuário pode interagir intensamente com ambientes e elementos virtuais.
+
+Questão 10 – Quais são os tipos de tecnologias imersivas?
+
+Resposta: Realidade virtual, realidade aumentada e realidade mista.
+
+Questão 11a – O que é o metaverso?
+
+Resposta: É um espaço virtual compartilhado em que pessoas podem interagir, socializar e realizar atividades por meio de representações digitais, como avatares.
+
+Questão 11b – Como os mundos virtuais também podem trazer contribuições à saúde e à educação?
+
+Resposta: Na saúde, podem ajudar em treinamentos médicos, tratamentos e simulações de procedimentos. Na educação, permitem aulas interativas, visitas virtuais e experiências práticas em ambientes simulados.
