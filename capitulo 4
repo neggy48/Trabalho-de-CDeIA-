@@ -1,0 +1,220 @@
+CAPÍTULO 4 – Inteligência Artificial
+Páginas 68 a 99 do livro
+1. Resumo do capítulo
+O capítulo apresenta os fundamentos da inteligência artificial (IA), explicando como os computadores conseguem analisar dados, identificar padrões, aprender e realizar tarefas que normalmente exigiriam habilidades humanas.
+
+A IA funciona por meio de etapas como coleta de dados, processamento, treinamento e aprimoramento contínuo. Diferentemente de um programa comum, ela pode ajustar seu funcionamento com base nos dados e nas experiências acumuladas.
+
+O livro apresenta dois tipos de IA:
+- IA fraca ou limitada: desenvolvida para realizar tarefas específicas, como reconhecimento facial, assistentes virtuais e recomendações.
+- IA forte ou geral: seria capaz de aprender e resolver diferentes problemas de maneira semelhante à inteligência humana. Ainda é um conceito teórico.
+O capítulo explica os tipos de aprendizado de máquina:
+- Supervisionado: utiliza dados previamente classificados para aprender.
+- Não supervisionado: recebe dados sem classificação e procura padrões e agrupamentos.
+- Por reforço: aprende por meio de tentativas, erros e recompensas.
+Também aborda o deep learning (aprendizado profundo), que utiliza redes neurais artificiais com várias camadas para processar informações complexas.
+
+Outro assunto é a metaprogramação, técnica que permite criar programas que modificam ou produzem outros programas. Compiladores e interpretadores são exemplos de programas que manipulam códigos.
+
+O capítulo também explica as IAs generativas, capazes de criar textos, imagens, áudios, vídeos e códigos a partir de comandos chamados prompts. Para conseguir bons resultados, é importante informar o contexto, o que se deseja, os detalhes e o formato esperado.
+
+Por fim, o livro discute os riscos e as questões éticas da IA, como preconceitos algorítmicos, falta de transparência, manipulação de imagens, vídeos e áudios, direitos autorais, impactos ambientais e mudanças no mercado de trabalho.
+2. Questões respondidas
+Em destaque – Robótica e inteligência artificial
+Questão 1 – De que maneira a utilização de robôs cada vez mais sofisticados pode redefinir as relações de trabalho no mundo contemporâneo?
+
+Resposta: Os robôs podem automatizar tarefas repetitivas e perigosas, aumentar a produtividade e criar novas profissões. Ao mesmo tempo, exigem que os trabalhadores desenvolvam novas habilidades tecnológicas.
+
+Questão 2 – Cite outras tecnologias criadas pela humanidade que estabeleceram paradigmas e modificaram a sociedade.
+
+Resposta: A máquina a vapor, a eletricidade, o telefone, o automóvel, a televisão, os computadores e a internet são exemplos de tecnologias que transformaram a sociedade.
+
+Questão 3 – Escolham um setor que poderia se beneficiar com a atuação de um robô inteligente e apresentem suas contribuições.
+
+Resposta: Na área da saúde, robôs inteligentes poderiam auxiliar no transporte de medicamentos, na organização de materiais e em procedimentos que exigem precisão. Isso ajudaria os profissionais e melhoraria o atendimento aos pacientes.
+Em destaque – Reconhecimento facial e racismo algorítmico
+Questão 1 – Por que o racismo algorítmico reforça a hierarquização social?
+
+Resposta: Porque sistemas treinados com dados preconceituosos podem favorecer determinados grupos e prejudicar outros, reproduzindo desigualdades que já existem na sociedade.
+
+Questão 2 – Como esse tipo de problema representa um viés algorítmico de gênero e etnia?
+
+Resposta: Ocorre quando os sistemas apresentam resultados diferentes conforme características como gênero e etnia, por exemplo, identificando com mais dificuldade rostos de mulheres negras.
+
+Questão 3 – Qual é a relação do racismo algorítmico com o racismo estrutural existente na sociedade?
+
+Resposta: O racismo algorítmico reproduz desigualdades presentes na sociedade porque os dados utilizados no treinamento podem conter preconceitos e discriminações históricas.
+
+Questão 4 – Elabore hipóteses para justificar as falhas no reconhecimento facial.
+
+Resposta: Uma possível causa é a utilização de bancos de imagens com pouca diversidade, contendo mais rostos de pessoas brancas do que de pessoas negras. Isso faz com que o sistema aprenda padrões de maneira desigual.
+
+Questão 5 – O que pode ser feito para eliminar ou reduzir os vieses discriminatórios do reconhecimento facial?
+
+Resposta: É necessário utilizar bancos de dados diversificados, testar os sistemas com diferentes grupos de pessoas, fiscalizar os resultados e corrigir os erros identificados.
+Aplicando conhecimentos – Fundamentos da IA
+Questão 1 – Sobre inteligência artificial, identifique como verdadeira ou falsa as afirmações.
+- a. Falsa.
+- b. Verdadeira.
+- c. Verdadeira.
+- d. Verdadeira.
+- e. Verdadeira.
+Questão 2 – Quais são os tipos de aprendizado de máquina?
+
+Resposta: Aprendizado supervisionado, não supervisionado e por reforço.
+
+Questão 3 – Analise a imagem das redes neurais e responda.
+
+a. O que a imagem representa?
+
+Resposta: Representa uma rede neural artificial, utilizada no funcionamento de sistemas de inteligência artificial.
+
+b. O que as estruturas em vermelho, amarelo e azul estão representando?
+
+Resposta: Representam as camadas da rede neural: entrada, camadas ocultas e saída.
+
+c. Qual é a função dessas estruturas?
+
+Resposta: A camada de entrada recebe os dados, as camadas ocultas processam as informações e a camada de saída apresenta o resultado.
+Aplicando conhecimentos – Metaprogramação
+Questão 4 – Escreva um programa em pseudocódigo que apaga as imagens no diretório incorreto e corrige o programa de backup.
+
+Resposta:
+função corrigir_backup:
+    acessar diretório "backup/vídeos"
+
+    para NÚMERO de 001 a 580:
+        fazer nome_imagem igual a "NÚMERO.jpg"
+        apagar arquivo nome_imagem
+
+    abrir programa de backup para escrita
+    substituir "backup/vídeos" por "backup/imagens"
+    salvar alterações
+    fechar programa
+
+
+Questão 5 – Por que compiladores e interpretadores são exemplos do uso de metaprogramação?
+
+Resposta: Porque são programas que recebem códigos-fonte, manipulam esses códigos e os traduzem para que possam ser executados pelo computador.
+
+Questão 6 – Como a metaprogramação pode ser usada no desenvolvimento de sistemas de inteligência artificial? Cite um exemplo.
+
+Resposta: Pode ser utilizada para modificar algoritmos, ajustar parâmetros e gerar novos modelos automaticamente. Um exemplo são os algoritmos evolutivos, que modificam soluções para encontrar resultados melhores.
+Atividade prática – Desenvolvimento de prompts
+Conclusão 1 – Os prompts iniciais levaram ao mesmo resultado independentemente da IA utilizada?
+
+Resposta: Não necessariamente. Cada inteligência artificial possui características próprias e pode interpretar o mesmo comando de maneira diferente.
+
+Conclusão 2 – Os ajustes necessários para obter as entregas esperadas foram os mesmos independentemente da IA utilizada?
+
+Resposta: Não. Os ajustes dependem da ferramenta utilizada, pois cada IA apresenta diferentes formas de interpretar os comandos.
+
+Conclusão 3 – Qual IA vocês consideraram mais adequada para a elaboração de textos? E para a produção de imagens?
+
+Resposta: A escolha depende dos testes realizados. Algumas ferramentas são mais adequadas para textos, enquanto outras apresentam melhores resultados na criação de imagens.
+
+Conclusão 4 – O que se pode concluir sobre a construção de prompts?
+
+Resposta: Que prompts claros, detalhados e organizados ajudam a IA a compreender melhor o pedido e produzir resultados mais próximos do esperado.
+
+Conclusão 5 – Produzam uma galeria virtual com as imagens geradas.
+
+Resposta: A galeria deve reunir as imagens criadas, acompanhadas de legendas que expliquem os comandos utilizados e como cada imagem foi produzida.
+Em destaque – IA consciente?
+Questão 1 – Como você imagina que seria a integração das IAs conscientes em nosso cotidiano?
+
+Resposta: Elas poderiam auxiliar nas atividades domésticas, profissionais e educacionais, interagindo com as pessoas de maneira mais independente e adaptável.
+
+Questão 2 – Quais poderão ser os possíveis impactos na sociedade de uma IA que demonstra características de consciência?
+
+Resposta: Poderia transformar as relações entre humanos e máquinas, trazendo avanços tecnológicos, mas também levantando questões sobre direitos, responsabilidades e segurança.
+
+Questão 3 – Elabore um texto apresentando os prós e os contras de haver IAs conscientes.
+
+Resposta: A existência de inteligências artificiais conscientes poderia trazer benefícios, como melhorar pesquisas, facilitar tarefas e desenvolver novas tecnologias. Entretanto, também poderia gerar problemas relacionados à segurança, à ética e ao controle dessas máquinas. Por isso, seria necessário estabelecer regras para garantir que seu desenvolvimento aconteça de maneira responsável.
+Aplicando conhecimentos – IAs generativas
+Questão 7 – Sobre as IAs generativas, identifique as afirmações corretas.
+Alternativas B e C
+- a. Incorreta.
+- b. Correta.
+- c. Correta.
+- d. Incorreta.
+Questão 8 – Avalie o prompt do unicórnio cor-de-rosa cercado por formigas guerreiras em uma floresta de açúcar.
+
+a. A IA atendeu plenamente ao que foi pedido? Justifique.
+
+Resposta: Não necessariamente. A imagem pode apresentar alguns elementos solicitados, mas deixar de representar corretamente outros detalhes do comando.
+
+b. O prompt está bem estruturado? Por quê?
+
+Resposta: Ele apresenta o tema principal e os elementos desejados, mas poderia trazer mais detalhes sobre o estilo, as cores, a posição dos personagens e o cenário.
+
+c. Como o prompt poderia ser melhorado?
+
+Resposta: Poderia especificar o tamanho do unicórnio, a aparência das formigas, os detalhes da floresta, a iluminação e o estilo da imagem.
+
+d. Ajuste o prompt e teste em uma IA generativa.
+
+Resposta – Exemplo de prompt melhorado:
+
+“Crie uma ilustração colorida e detalhada de um unicórnio cor-de-rosa no centro de uma floresta feita de doces e açúcar. Ao seu redor, coloque formigas guerreiras usando pequenas armaduras e carregando escudos. Utilize cores vibrantes, iluminação mágica e um cenário de fantasia.”
+
+Questão 9 – Complete o texto sobre LLMs, PLN e modelos transformadores.
+Alternativa B
+Os termos corretos são:
+- I – Grandes modelos de linguagem (LLMs).
+- II – Processamento da linguagem natural (PLN).
+- III – Números.
+- IV – Modelos transformadores.
+Em destaque – Manipulação digital com IA
+Questão 1 – Quais são os possíveis impactos e riscos da geração e manipulação de imagens, vídeos e áudios mal-intencionados?
+
+Resposta: Pode provocar golpes, fraudes, notícias falsas, difamação, exposição indevida, constrangimento e danos à reputação das pessoas.
+
+Questão 2 – O que pode ser feito para combater esse tipo de uso das IAs generativas?
+
+Resposta: É importante criar leis, denunciar conteúdos falsos, verificar a origem das informações, promover educação digital e responsabilizar quem utiliza essas ferramentas para prejudicar outras pessoas.
+
+Questão 3 – Planejem uma videoconferência para analisar criticamente as redes sociais e os conteúdos produzidos por IA.
+
+Resposta: A turma deve organizar uma reunião virtual para discutir como identificar conteúdos criados por IA, quais mensagens eles transmitem e quais consequências podem provocar.
+
+Questão 4 – Organizem as informações coletadas em uma nuvem de armazenamento e produzam um conteúdo para compartilhar.
+
+Resposta: As informações devem ser reunidas em uma pasta compartilhada e utilizadas para produzir uma apresentação, cartaz ou vídeo educativo sobre os riscos e os usos responsáveis da inteligência artificial.
+Em destaque – Simulações computacionais
+Questão 1 – O que são simuladores computacionais?
+
+Resposta: São programas que reproduzem virtualmente situações ou fenômenos do mundo real, permitindo observar e analisar como eles funcionam.
+
+Questão 2 – Como os computadores podem simular processos da vida real?
+
+Resposta: Eles utilizam modelos matemáticos, dados e regras para reproduzir virtualmente o comportamento de fenômenos reais, como movimentos, clima e reações químicas.
+
+Questão 3 – Explore o simulador “Efeito estufa”, indique os parâmetros utilizados e explique como acontecem as simulações.
+
+Resposta: O simulador permite alterar parâmetros relacionados à atmosfera, à concentração de gases e à energia recebida do Sol. A partir dessas mudanças, é possível observar como a quantidade de gases de efeito estufa influencia a temperatura do planeta.
+
+Questão 4 – Que outros problemas reais poderiam ser explorados por meio de ferramentas de simulação computacional?
+
+Resposta: Previsão do clima, trânsito, crescimento populacional, propagação de doenças, funcionamento de máquinas e impactos ambientais.
+Trabalho e juventudes – IA e empregos
+Questão 10 – Por que a afirmação de que o impacto da adoção tecnológica nos empregos será positivo pode ser vista como controversa?
+
+Resposta: Porque, apesar de a tecnologia criar novas oportunidades de trabalho, também pode substituir algumas profissões e aumentar o desemprego e a desigualdade, principalmente entre pessoas que não possuem qualificação digital.
+
+Questão 11 – Como a IA pode contribuir para o monitoramento e a gestão sustentável de recursos naturais?
+
+Resposta: Pode analisar dados ambientais, acompanhar o consumo de água e energia, identificar desmatamentos, prever riscos ambientais e ajudar na criação de políticas de preservação.
+O que aprendi?
+Questão 1 – Qual é a reflexão despertada pelo diálogo extraído do filme Eu, robô?
+
+Resposta: O diálogo provoca uma reflexão sobre a capacidade das máquinas de realizar atividades consideradas exclusivamente humanas, como criar obras artísticas, e questiona os limites da inteligência artificial.
+
+Questão 2 – A IA roubará empregos humanos? Escreva um texto justificando sua resposta.
+
+Resposta: A inteligência artificial poderá substituir algumas atividades profissionais, principalmente as repetitivas e automatizadas. Entretanto, também criará novas profissões e oportunidades. Por isso, é importante que os trabalhadores desenvolvam habilidades digitais e aprendam a utilizar essas ferramentas.
+
+Questão 3 – Desenvolvam um planejamento para se preparar para esse cenário.
+
+Resposta: O planejamento pode incluir estudar informática, aprender a utilizar ferramentas de inteligência artificial, desenvolver pensamento crítico, criatividade e comunicação. Também é importante buscar cursos e acompanhar as mudanças do mercado de trabalho.
