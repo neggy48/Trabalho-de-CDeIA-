@@ -1,6 +1,7 @@
 ( @mizaelsouto)
 # Trabalho-de-CDeIA-
-Aluno: Kaio Henrique Pereira da Silva, turma mecatrônica-1_03
+Aluno: Kaio Henrique Pereira da Silva
+turma mecatrônica-01_103
 
 https://github.com/neggy48/Trabalho-de-CDeIA-/blob/main/capitulo%201
 
